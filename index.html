@@ -5,9 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+a{text-decoration: none;}
+
+table, td, th{
+margin:auto; 
+}
+
+
+input[type=checkbox]:checked+div{
+
+    height: 520px;
+}
+div{
+    overflow: hidden;
+    height: 0px;
+    transition-duration: 1s;
+}
+#check0,#check1,#check2,#check3,#check4,#check5,#check6 { 
+    display:none;
+    }
+
+
+
+
+
+    </style>
 </head>
 <body>
-    <h1>송성수</h1>
-    <p>웹 호스팅 테스트</p>
+
+    <table>
+        <tr>
+            <td id="home">목차: </td><td>&nbsp;<a href="#info">1.자기소개</a></td><td>&nbsp;<a href="#hobby">2.취미</a></td><td>&nbsp;<a href="#food">3.좋아하는 음식</a></td>
+        </tr>
+
+    </table>
+
+    <h1 style="background-image:url(back1.jpg);">송성수의 웹사이트 test</h1>
+
+    <table width="100%" height="100%" style="background-image:url(back.jpg);" >
+        
+        <tr>
+            <td colspan="3"><h2 id= "info"><label for="check0">자기소개(클릭)</label></h2></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input id="check0"type="checkbox"> <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi eaque ipsam eveniet quia nisi ut. Animi tempora odit tenetur similique in ab corrupti exercitationem unde minus veniam? Delectus aliquid, ipsa a saepe aspernatur dolorum perspiciatis obcaecati voluptas commodi beatae hic excepturi veniam illo quia odit illum cum doloribus alias temporibus sunt sit! Explicabo sit illum, quo repellat praesentium beatae animi adipisci molestias deleniti. Quas ab, rem quae deleniti voluptate autem vel qui eligendi totam dolorem expedita quis laudantium unde illum reprehenderit veniam inventore. Tempore aliquam quia, aspernatur voluptatibus provident optio illo doloribus ea incidunt molestias, odit, pariatur sint expedita!<br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut modi iusto adipisci suscipit dolore! Maxime perspiciatis fugiat numquam placeat totam maiores eaque consectetur eius nihil aliquam est quisquam, corrupti sequi.
+
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quibusdam ad, non illum dolorem sit necessitatibus, saepe nesciunt velit debitis distinctio omnis aspernatur aliquam. Possimus tempora molestias, modi sed eaque obcaecati numquam maiores explicabo ea rem excepturi dolore quaerat. Consequuntur id animi libero mollitia quaerat eius impedit ducimus, cum in assumenda illo consectetur voluptatum quae accusantium ullam. Ipsa, veritatis est! Aliquid nihil quaerat molestias animi veritatis illum, placeat quasi culpa excepturi esse aut suscipit iste laudantium beatae accusamus dicta eos illo ad! Odit consectetur illo quod aliquid nihil dolorum quisquam vitae ducimus, non, aut placeat minus beatae tenetur, eveniet delectus!
+                <a href="#home"> - home↑</a>
+            </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="3"><h2 id="hobby">취미(이미지 클릭)</h2></td>
+        </tr>
+        <tr>
+            <td width="33%"><h3>콘솔 게임</h3></td>
+            <td width="33%"><h3>영화 감상</h3></td>
+            <td width="33%"><h3>음악 감상</h3></td>
+        </tr>
+        <tr>
+            <td><label for="check1"><img src="MHW.gif" alt="" width="100%"></label></td>
+
+            <td><label for="check2"><img src="Inception.gif" alt="" width="100%"></label></td>
+
+            <td><label for="check3"><img src="AKMU.png" alt="" width="100%"></label></td>
+        </tr>
+
+        <tr>
+            <td><input id="check1"type="checkbox">
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus similique quas dolorem incidunt molestias! Fugiat nihil distinctio itaque voluptatibus. Accusamus repellat iste sint exercitationem consequuntur dolorum voluptatum pariatur saepe!<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            <td><input id="check2"type="checkbox">
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quae natus eos odit quisquam sunt, facilis saepe quia veritatis consequatur totam sed nulla. Iste exercitationem excepturi molestiae laboriosam culpa dolor.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            <td><input id="check3"type="checkbox">
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias natus magnam possimus, porro corporis ut earum maxime exercitationem esse. Excepturi praesentium voluptatibus minima omnis dolores expedita alias ipsa laborum?<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            
+       
+        </tr>
+
+        <tr>
+            <td colspan="3"><h2 id="food">좋아하는 음식</h2></td>
+        </tr>
+
+        <tr>
+            <td><h3>피자</h3></td>
+            <td><h3>삼겹살</h3></td>
+            <td><h3>파스타</h3></td>
+        </tr>
+                
+
+        <tr>
+            <td><label for="check4"><img src="pizza.gif" alt="" width="100%"></label></td>
+
+            <td><label for="check5"><img src="pork.gif" alt="" width="100%"></label></td>
+
+            <td><label for="check6"><img src="pasta.gif" alt="" width="100%"></label></td>
+        </tr>
+
+        <tr>
+            <td><input id="check4"type="checkbox">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            <td><input id="check5"type="checkbox">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            <td><input id="check6"type="checkbox">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro reprehenderit repellat natus aliquam dolore ratione molestiae recusandae, consectetur provident! Dolores est assumenda consequatur tempore esse similique quasi ut illum.
+                    <a href="#home"> - home↑</a></div>
+            </td>
+
+            
+       
+        </tr>
+
+    </table>
+
 </body>
 </html>
