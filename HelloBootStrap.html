@@ -26,7 +26,6 @@
 
       height: 520px;
     }
-
     div {
       overflow: hidden;
       height: 0px;
@@ -56,27 +55,33 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="overflow: initial;">
+      
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">목차: </a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#info">1.자기소개</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#hobby">2.취미</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#food">3.좋아하는 음식</a>
+        </li>
+
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -92,20 +97,12 @@
 
 
 
-  <table>
-    <tr>
-        <td id="home">목차: </td>
-        <td>&nbsp;<a href="#info">1.자기소개</a></td>
-        <td>&nbsp;<a href="#hobby">2.취미</a></td>
-        <td>&nbsp;<a href="#food">3.좋아하는 음식</a></td>
-    </tr>
-
-</table>
 
 
 
 
-  <h1 style="background-image:url(back1.jpg);">송성수의 웹사이트 test</h1>
+
+  <h1 id="home" style="background-image:url(back1.jpg);">송성수의 웹사이트 test</h1>
 
 
   <table width="100%" height="100%" style="background-image:url(back.jpg);">
